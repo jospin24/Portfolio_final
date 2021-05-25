@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jospin Kaboto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <!-- li><a href="#services" onclick="toggleMenu();">Services</a></li -->
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br><span style="color:#2196f3">Jospin</span></h2>
+            <h3>I'm a Self-Taught Front-End <br> developer.</h3>
+            <a href="https://drive.google.com/file/d/1OpIg2ql8ookud6r-F_p-Ue4CYxPhOzth/view?usp=sharing" class="btn">Resume</a>   <!-- Resume Insert -->
+        </div>
+    </section>
+
+    <!-- About Me -->
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Hi, I'm Jospin Kaboto.</h3> <br>
+                <p>
+                    Learning to code has been a difficult and harduous journey,
+                    however, I have never done something so rewarding. Now, I feel at
+                    a point where I can build multipage websites with my HTML & CSS
+                    skills, I have also spent time learning and practicing javascrip,
+                    functionnal programming and object oriented programming.
+                </p><br>
+
+                <p> I am passionate about how design and
+                    technology can bring about change in education. This could inspire
+                    new ways of learning and bridge diverse communities.</p> <br>
+
+                <p> I am a developer, because I'm inspired by the idea of being
+                    a better me today than I was yesterday. Put simply I love
+                    to learn and this project is a great example of that!</p> <br>
+
+                
+            </div>
+            <div class="w50">
+                <img src="banner.jpg" class="img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Offered -->
+
+    <!-- section class="services" id="services">
+        <div class="heading white">
+            <h2>Services</h2>
+            <p>Here are some of the skills I have to offer</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="icon1.png">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia facilis maxime debitis. Eum omnis libero sint
+                    quaerat eveniet nisi quae.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon2.png">
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia facilis maxime debitis. Eum omnis libero sint
+                    quaerat eveniet nisi quae.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon3.png">
+                <h2>Android App</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia facilis maxime debitis. Eum omnis libero sint
+                    quaerat eveniet nisi quae.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon4.png">
+                <h2>Photography</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia facilis maxime debitis. Eum omnis libero sint
+                    quaerat eveniet nisi quae.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon5.png">
+                <h2>Content Writing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia facilis maxime debitis. Eum omnis libero sint
+                    quaerat eveniet nisi quae.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon6.png">
+                <h2>Video Editing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia facilis maxime debitis. Eum omnis libero sint
+                    quaerat eveniet nisi quae.</p>
+            </div>
+        </div -->
+    </section>
+
+
+    <!-- Projects -->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>My Projects</h2>
+            <p>Here are some of the projects I worked on as Front End Developer</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img class="image_img" src="img/srn1.png">
+                <div class="image__overlay image__overlay--blur">
+                    <div class="image_title">Gorilla9</div>
+                    <p class="image_desc">
+                        This website is a simple responsive design, it was design using JavaScript for making the interface responsive to any kind of devices.
+                    </p>
+                    <a target="_blank" rel="noopener noreferrer" class="live_shw show" id="ctw" href="https://jospin24.github.io/Gorilla9/">See Live</a>
+                    <a target="_blank" rel="noopener noreferrer" class="live_shw src" id="ctw" href="https://github.com/jospin24/weather-app">Source Code</a>
+                </div> 
+            </div>
+            
+            
+            <div class="workBx">
+                <img class="image_img" src="img/weather.png">
+                <div class="image__overlay image__overlay--blur">
+                    <div class="image_title">Weather App</div>
+                    <p class="image_desc">
+                        Weather app, design with HTML, CSS an JavaScrpt and it is using an API key.
+                    </p>
+                    <a target="_blank" rel="noopener noreferrer" class="live_shw show" id="ctw" href="https://jospin24.github.io/weather-app/">See Live</a>
+                    <a target="_blank" rel="noopener noreferrer" class="live_shw src" id="ctw" href="https://github.com/jospin24/jospin.github.io">Source Code</a>
+                </div>
+            </div>
+
+            <div class="workBx">
+                <img class="image_img" src="img/menu9.png">
+                <div class="image__overlay image__overlay--blur">
+                    <div class="image_title">Menu91</div>
+                    <p class="image_desc">
+                        Menu91 is an delivery app for restaurants, Menu91 helps restaurants business and handle orders.
+                    </p>
+                    <a target="_blank" rel="noopener noreferrer" class="live_shw show" id="ctw" href="https://www.menu91.com/">See Live</a>
+                    
+                </div>
+            </div>
+
+            <div class="workBx">
+                <img class="image_img" src="img/tindog.png">
+                <div class="image__overlay image__overlay--blur">
+                    <div class="image_title">Tindog</div>
+                    <p class="image_desc">
+                        Tindog is a replica approach to tinder but for dogs.
+                    </p>
+                    <a target="_blank" rel="noopener noreferrer" class="live_shw show" id="ctw" href="https://jospin24.github.io/tindog/">See Live</a>
+                    <a target="_blank" rel="noopener noreferrer" class="live_shw src" id="ctw" href="https://github.com/jospin24/tindog">Source Code</a>
+                </div>
+            </div>
+            
+        </div>
+        <!-- <div class="heading">
+            <a href="#" class="btn">View more</a>
+        </div> -->
+    </section>
+
+    <!-- Contact Me -->
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="react-reveal section-title" style="animation-fill-mode: both;
+             animation-duration: 1000ms; animation-delay: 300ms; animation-iteration-count: 1;
+            opacity: 1; animation-name: react-reveal-838237977843620-2;">Contact</h2>
+                
+            <div class="react-reveal contact-wrapper" style="animation-fill-mode: both;
+                animation-duration: 1000ms;animation-delay: 800ms;animation-iteration-count: 1;
+                opacity: 1;animation-name: react-reveal-838237977843620-3;">
+                    
+                <p class="contact-wrapper__text">Would you like to work with me? Awesome!</p>
+                    <a target="_blank" rel="noopener noreferrer" class="cta-btn" id="ctw"
+                        href="mailto:joskab24@gmail.com">Let's Talk</a>
+            </div>
+        </div>
+    </section>
+
+        <!-- Footer -->
+
+    <footer class="footer navbar-static-bottom">
+        <div class="container">
+            
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/jospin-kaboto-2231241b4/" rel="noopener noreferrer" target="_blank" aria-label="linkedin">
+                    <i class="fa">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="1em" height="1em"
+                            viewBox="0 0 20 20">
+                            <path d="M5 3c0 1.062-.71 1.976-2.001 1.976C1.784 4.976 1 4.114 1 3.052C1 1.962 1.76 1 3 1s1.976.91 2 2zM1 19V6h4v13H1z"/>
+                            <path d="M7 10.444c0-1.545-.051-2.836-.102-3.951h3.594l.178 1.723h.076c.506-.811 1.746-2 3.822-2C17.1 6.216 19 7.911 19 11.558V19h-4v-6.861c0-1.594-.607-2.81-2-2.81c-1.062 0-1.594.86-1.873 1.569c-.102.254-.127.608-.127.963V19H7v-8.556z"/>
+                        </svg>
+                    </i>             
+                </a>
+                <a href="https://github.com/jospin24" rel="noopener noreferrer" target="_blank" aria-label="github">
+                    <i class="fa">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="1em" height="1em"
+                            viewBox="0 0 1024 1024">
+                            <path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5C64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9c26.4 39.1 77.9 32.5 104 26c5.7-23.5 17.9-44.5 34.7-60.8c-140.6-25.2-199.2-111-199.2-213c0-49.5 16.3-95 48.3-131.7c-20.4-60.5 1.9-112.3 4.9-120c58.1-5.2 118.5 41.6 123.2 45.3c33-8.9 70.7-13.6 112.9-13.6c42.4 0 80.2 4.9 113.5 13.9c11.3-8.6 67.3-48.8 121.3-43.9c2.9 7.7 24.7 58.3 5.5 118c32.4 36.8 48.9 82.7 48.9 132.3c0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9c177.1-59.7 304.6-227 304.6-424.1c0-247.2-200.4-447.3-447.5-447.3z"/>
+                        </svg>
+                    </i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright --> 
+
+    <div class="copyright">
+        <p class="copy_r">Copyright @ 2020 Jospin Kaboto. All Right Reserved.</p>
+    </div>
+    
+    <script type="text/javascript">
+        window.addEventListener('scroll', function() {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
